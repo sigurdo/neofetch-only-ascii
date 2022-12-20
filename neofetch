@@ -11563,6 +11563,9 @@ main() {
         printf '\e[?25l\e[?7l'
     }
 
+    print_ascii
+    return 0
+
     image_backend
     get_cache_dir
     old_functions
